@@ -9,5 +9,9 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+    main{
+        width: 100%;
+    }
 }
