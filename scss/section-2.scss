@@ -1,0 +1,83 @@
+.secondSec{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 105px;
+    background: $background-5;
+    box-shadow: 0px 1px 3px #00000061;
+
+    .second-1{
+        width: 394px;
+        margin-left: 151px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h3{ 
+            color: $color-2;
+            font-size: 20px;
+            margin-bottom: 5px;
+            line-height: 24px;
+        }
+        p{  
+            color: $color-5;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+
+    .second-2{
+        width: 561px;
+        margin-right: 158px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+        .svg-1{
+            width: 16px;
+            height: 30px;
+            opacity: 0.65;
+        }
+        .svg-2{
+            width: 30px;
+            height: 30px;
+            opacity: 0.65;
+        }
+        .svg-3{
+            width: 36px;
+            height: 30px;
+            opacity: 0.65;
+        }
+        .svg-4{
+            width: 24px;
+            height: 30px;
+            opacity: 0.65;
+        }
+        .svg-5{
+            width: 30px;
+            height: 30px;
+            opacity: 0.65;
+        }
+    }
+}
+
+@media (max-width:1330px){
+    .secondSec{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 180px;
+        .second-1{
+            margin: 0 auto;
+            align-items: center;
+            p{
+                text-align: center;
+            }
+        }
+        .second-2{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}

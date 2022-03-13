@@ -1,0 +1,135 @@
+.eighthSec{
+    width: 100%;
+    height: 573px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $background-10;
+
+    h2{ 
+        margin-top: 8px;
+        width: 100%;
+        font-size: 36px;
+        color: $color-1;
+        text-align: center;
+        margin-bottom: 21.5px;
+    }
+    img{
+        width: 64px;
+        height: 2px;
+    }
+    p{  
+        color: $color-1;
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .image-divider{
+        margin-bottom: 27px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .form{
+        margin-top: 30px;
+        width: 390px;
+        height: 314px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: $background-5;
+        border-radius: 5px;
+        box-shadow: 0px 5px 6px #00000029;
+
+        button{
+            cursor: pointer;
+            width: 158px;
+            height: 48px;
+            font-size: 15px;
+            margin-bottom: 32.2px;
+            background: $background-4;
+            border-radius: 5px;
+            color: $color-1;
+            border-style: none;
+            font-family: inherit;
+            box-shadow: none;
+            text-transform: uppercase;
+            font-weight:  600;
+            transition: 0.3s;
+            &:hover{
+            opacity: 0.9;
+            transform: scale(1.1);
+            }
+        }
+        .form-box{
+            margin-top: 33px;
+            width: 260px;
+            height: 160.5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+                .inputs{
+                    width: 260px;
+                    font-size: 12px;
+                    line-height: 24px;
+                    font-family: inherit;
+                    color: $color-3;
+                    border: none;
+                    border-bottom: 1px solid $color-3;
+                    padding-left: 10px;
+                    opacity: 1;
+
+                }
+                input:focus {
+                 outline:none;
+                }
+
+                .radio{
+               width: 260px;
+               font-size: 9px;
+               line-height: 12.5px;
+               font-weight: 600;
+               text-transform: uppercase;
+               display: flex;
+               color: $color-2;
+               justify-content: flex-start;
+               align-items: flex-start;
+               flex-direction: row;
+
+                input[type="radio"] {
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    width: 12.7px;
+                    height: 12.7px;
+                    border: 1px solid $background-4;
+                    border-radius: 50%;
+                    background-clip: content-box;
+                    padding: 2px;
+                    opacity: 0.5;
+                }
+
+                input[type="radio"]:checked {
+                    background-color: $background-4;
+                    opacity: 1;
+                }
+                input:checked + label{
+                    opacity: 1;
+                }
+                label{
+                    margin-left:  5px;
+                    margin-right: 10px;
+                    opacity: 0.5;
+                }
+            }
+        }
+        input{
+            width: 260px;
+        }
+    }
+}

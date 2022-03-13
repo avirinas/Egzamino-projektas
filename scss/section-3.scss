@@ -1,0 +1,256 @@
+.thirdSec{
+    width: 100%;
+    height: 595px;
+    background:  $background-cover-2;
+    background-size: cover;
+    background-position: 0px -335px;
+    background-repeat: no-repeat;
+
+    .cover{
+        width: 100%;
+        height: 595px;
+        background: linear-gradient(270deg, $background-6 0%, $background-7 100%);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+
+        .swiper{
+            width: 947px;
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            margin-right: 62px;
+
+            .swiper-button-prev,
+            .swiper-button-next{
+                opacity: 0;
+            }
+
+            .swiper-wrapper{
+                .swiper-slide{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .text{
+                        width: 517px;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+                        h3{
+                            width: 509px;
+                            font-size: 36px;
+                            line-height: 40px;
+                            font-weight: 600;
+                            color: $color-1;
+                            margin-bottom: 33px;
+                        }
+                        p{  
+                            width: 517px;
+                            color: $color-1;
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+                    .images{
+                        margin-bottom: 5px;
+                        width: 377.2px;
+                        height: 366px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        .image-top{
+                            width: 377.2px;
+                            margin-left: 6px;
+                            margin-top: 6px;
+                            display: flex;
+                            justify-content: space-between;
+                            .top-1{
+                                background: $background-cover-4;
+                                box-shadow: 0px 3px 6px #00000029;
+                                background-size: cover;
+                                width: 183px;
+                                height: 183px;
+
+                                div{
+                                    cursor: pointer;
+                                    background: $background-10;
+                                    margin-left: 8px;
+                                    margin-top: 6px;
+                                    width: 166px;
+                                    height: 166px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    opacity: 0;
+                                        h3{ 
+                                            font-size: 20px;
+                                            color: $color-1;
+                                        } 
+                                    &:hover{
+                                        opacity: 0.8;
+                                    }                           
+                                }
+
+                            }
+                            .top-2{
+                                background: $background-cover-5;
+                                box-shadow: 0px 3px 6px #00000029;
+                                background-size: cover;
+                                width: 183px;
+                                height: 183px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                div{
+                                    cursor: pointer;
+                                    background: $background-10;
+                                    margin-bottom: 4px;
+                                    width: 166px;
+                                    height: 166px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    opacity: 0;
+                                        h3{ 
+                                            font-size: 20px;
+                                            color: $color-1;
+                                        } 
+                                    &:hover{
+                                        opacity: 0.8;
+                                    }                           
+                                }
+                            }
+                        }
+                        .image-bot{
+                            margin-left: 6px;
+                            margin-bottom: 6px;
+                            position: relative;
+                            width: 377.2px;
+                            height: 192.5px;
+                            background: $background-cover-6;
+                            box-shadow: 0px 3px 6px #00000029;
+                            background-size: cover;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                                div{
+                                    cursor: pointer;
+                                    background: $background-10;
+                                    margin-top: 6px;
+                                    width: 358.2px;
+                                    height: 166px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    opacity: 0;
+                                        h3{ 
+                                            font-size: 20px;
+                                            color: $color-1;
+                                        } 
+                                    &:hover{
+                                        opacity: 0.8;
+                                    }                           
+                                }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .tabs{
+            margin-top: 22px;
+            margin-left: 151px;
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 100px;
+            justify-content: center;
+
+            .selected{
+                background: $background-10 !important;
+            }
+
+            button{
+                cursor: pointer;
+                width: 100px;
+                height: 100px;
+                background: $background-11;
+                border: none;
+                box-shadow: 0px 3px 6px #00000029;
+                margin-bottom: 21px;
+            }
+            button span{
+                display: inline-block;
+                transform: rotate(-45deg);
+                font-size: 14px;
+                font-family: Montserrat;
+                text-transform: uppercase;
+                color: $color-1;
+                font-weight:500;
+            }
+        }
+    }
+}
+
+@media (max-width:1330px){
+    .thirdSec{
+        height: 600px;
+        background-position: center;
+        .cover{
+            height: inherit;
+            flex-direction: column;
+
+            .swiper{
+                margin: 0 auto;
+                margin-bottom: 25px;
+            }
+
+            .tabs{
+                width: 400px;
+                height: 100px;
+                flex-direction: row;
+                margin: 0 auto;
+                margin-top: 50px;
+                justify-content: space-evenly;
+                button span{
+                    transform: rotate(0deg);
+                }
+            }
+        }
+    }
+}
+@media (max-width:1035px) {
+    .thirdSec{
+        height: 1000px;
+        .cover{
+            .swiper{
+                width: 100%;
+                height: 1200px;
+                .swiper-wrapper{
+                    .swiper-slide{
+                        height: 700px;
+                        margin-top: 50px;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:1300px){
+    .thirdSec{
+        .cover{
+            justify-content: center;
+            .tabs{
+                margin-right: 52px;
+            }
+        }
+    }
+}

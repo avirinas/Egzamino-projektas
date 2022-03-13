@@ -1,0 +1,97 @@
+.fifthSec{
+    width: 100%;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{ 
+        margin-top: 69.8px;
+        width: 100%;
+        font-size: 36px;
+        color: $color-6;
+        text-align: center;
+        margin-bottom: 21.5px;
+    }
+    img{
+        width: 64px;
+        height: 2px;
+    }
+    p{  
+        color: $color-5;
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .image-divider{
+        margin-bottom: 27px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .row{
+        margin-top: 112px;
+        width: 960px;
+        display: flex;
+        justify-content: space-between;
+
+        .col{
+            width: 242px;
+            height: 194px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+
+            img{
+                position: absolute;
+                top: 11px;
+                left:11.5px;
+                width: 28px;
+                height: 28px;
+            }
+
+            .circle{
+            position: absolute;
+            content: "";
+            width: 50px;
+            height: 50px;
+            top: -49px;
+            outline: none;
+            border: 1px solid $svg-cl;
+            border-radius: 100px;
+
+         }
+
+        }
+        p{  
+            width: 246px;
+        }
+        h3{ 
+            font-weight: 400;
+            color: $color-2;
+            font-size: 20px;
+            line-height: 24px;
+            padding-top: 35px;
+            padding-bottom: 27px;
+        }
+    }
+}
+@media (max-width:1000px){
+    .fifthSec{
+        height: 900px;
+        h2{
+            margin-top: 80px;
+        }
+        .row{
+            flex-direction: column;
+            align-items: center;
+            .col{
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
