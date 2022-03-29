@@ -13,65 +13,82 @@
 <body>
   <main>
     <section class="top">
-      <div>
-        <img src="app/images/logo-1.png" alt="logo-1">
-      </div>
-      <div class="links">
-        <a class="m-link" href="#features">Features</a>
-        <a class="m-link" href="#about">About</a>
-        <a class="m-link" href="#pricing">Pricing</a>
-        <a class="m-link" href="#reviews">Reviews</a>
-        <a class="m-link" href="#contact">Contact</a>
-      </div>
-      <div id="burger">
-           <i class="fa-solid fa-bars"></i>
+      <div class="contentSize">
+        <div>
+          <img src="app/images/logo-1.png" alt="logo-1">
+        </div>
+        <div class="links">
+          <a class="m-link" href="#features">Features</a>
+          <a class="m-link" href="#about">About</a>
+          <a class="m-link" href="#pricing">Pricing</a>
+          <a class="m-link" href="#reviews">Reviews</a>
+          <a class="m-link" href="#contact">Contact</a>
+        </div>
+        <div id="burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </section>
-    <section class="firstSec background">
+    <section class="start background">
       <div class="cover">
-        <div class="firstSec-1">
-          <img class="log2" src="app/images/logo-2.png" alt="log2">
-          <h1>Explained propriety of out perpetual to you</h1>
-          <img class="divider" src="app/images/divider.png" alt="divider">
-          <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor.
-          Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated
-          astonished is.</p>
-          <button>Download</button>
-        </div>
-        <div class="firstSec-2">
-          <h3 class="ftop">Try Your <span>Free</span> Trial Today</h3>
-          <div class="fmiddle">
-            <div>Your details</div>
-            <input class="inputs" type="text" placeholder="First name">
-            <input class="inputs" type="text" placeholder="Last name">
-            <input class="inputs" type="text" placeholder="Phone number">
-            <div>Type of subscription</div>
-            <div class="radio">
-                <input  type="radio" name="subscription" value="monthly">
-                <label>Monthly</label>
-                <input  type="radio" name="subscription" value="yearly">
-                <label>Yearly</label>
+          <div class="contentSize">
+            <div class="firstSec-1">
+              <img class="log2" src="app/images/logo-2.png" alt="log2">
+              <h1>Explained propriety of out perpetual to you</h1>
+              <img class="divider" src="app/images/divider.png" alt="divider">
+              <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor.
+              Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated
+              astonished is.</p>
+              <button>Download</button>
             </div>
-          </div>
-          <button>Get started</button>
+            <div class="firstSec-2">
+              <h3 class="ftop">Try Your <span>Free</span> Trial Today</h3>
+              <div class="fmiddle">
+                <div>Your details</div>
+                <input class="inputs" type="text" placeholder="First name">
+                <input class="inputs" type="text" placeholder="Last name">
+                <input class="inputs" type="text" placeholder="Phone number">
+                <div>Type of subscription</div>
+                <div class="radio">
+                    <input  type="radio" name="subscription" value="monthly">
+                    <label>Monthly</label>
+                    <input  type="radio" name="subscription" value="yearly">
+                    <label>Yearly</label>
+                </div>
+              </div>
+              <button>Get started</button>
+            </div>
         </div>
       </div>
 
+
     </section>
-    <section class="secondSec">
-      <div class="second-1">
-        <h3>Social Media</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-      </div>
-      <div class="second-2">
-        <img class="svg-1" src="app/images/facebook-logo.svg" alt="facebook-logo">
-        <img class="svg-2" src="app/images/instagram-logo.svg" alt="instagram-logo">
-        <img class="svg-3" src="app/images/twitter.svg" alt="twitter">
-        <img class="svg-4" src="app/images/pinterest.svg" alt="pinterest">
-        <img class="svg-5" src="app/images/rss-solid.svg" alt="rss">
+    <section class="socialMedia">
+      <div class="contentSize">
+        <div class="second-1">
+          <h3>Social Media</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        </div>
+        <div class="second-2">
+          <button onclick="location.href='https://www.facebook.com/'" type="button">
+            <img class="svg-1" src="app/images/facebook-logo.svg" alt="facebook-logo">
+          </button>
+          <button onclick="location.href='https://www.instagram.com/'" type="button">
+            <img class="svg-2" src="app/images/instagram-logo.svg" alt="instagram-logo">          
+          </button>
+          <button onclick="location.href='https://twitter.com/'" type="button">
+            <img class="svg-3" src="app/images/twitter.svg" alt="twitter">
+          </button>
+          <button onclick="location.href='https://www.pinterest.com/'" type="button">
+            <img class="svg-4" src="app/images/pinterest.svg" alt="pinterest">
+          </button>
+          <button onclick="location.href='https://rss.com/'" type="button">
+            <img class="svg-5" src="app/images/rss-solid.svg" alt="rss">
+          </button>
+        </div>
       </div>
     </section>
-    <section class="thirdSec" id="features">
+    <section class="features" id="features">
       <article class="cover">
         <div class="tabs">
           <button index="0"><span>Register</span></button>
@@ -171,37 +188,39 @@
         </div>
       </article>
     </section>
-    <section class="fourthSec" id="about">
-      <div class="fourth-1">
-        <img src="app/images/cheshire-county-hygiene-services.svg" alt="svg-logo">
-      </div>
-      <div class="fourth-2">
-        <h2>Erat tempor tempus erat malesuada</h2>
-        <img src="app/images/divider_orange_u7 copy 4.svg" alt="divider-orange">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
-        lacus accumsan et viverra justo commodo.</p>
-        <div class="title-1">
-          <div class="circle">
-            <img src="app/images/eye-regular.svg" alt="eye">
-          </div>
-          <div class="text">
-            <h3>Title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-          </div>
+    <section class="about" id="about">
+      <div class="contentSize">
+        <div class="fourth-1">
+          <img src="app/images/cheshire-county-hygiene-services.svg" alt="svg-logo">
         </div>
-        <div class="title-2">
-          <div class="circle">
-            <img src="app/images/comment-regular.svg" alt="comment">
+        <div class="fourth-2">
+          <h2>Erat tempor tempus erat malesuada</h2>
+          <img src="app/images/divider_orange_u7 copy 4.svg" alt="divider-orange">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+          lacus accumsan et viverra justo commodo.</p>
+          <div class="title-1">
+            <div class="circle">
+              <img src="app/images/eye-regular.svg" alt="eye">
+            </div>
+            <div class="text">
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+            </div>
           </div>
-          <div class="text">
-            <h3>Title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
-            lacus accumsan et viverra justo commodo.</p>
+          <div class="title-2">
+            <div class="circle">
+              <img src="app/images/comment-regular.svg" alt="comment">
+            </div>
+            <div class="text">
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+              lacus accumsan et viverra justo commodo.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="fifthSec" >
+    <section class="benefits" >
       <div class="fifth-1">
         <h2>WHY THIS IS AWESOME</h2>
         <div class="image-divider">
@@ -233,7 +252,7 @@
         </div>
       </div>
     </section>
-    <section class="sixthSec" id="pricing">
+    <section class="pricing" id="pricing">
       <div class="sixth-1">
         <h2>PRICING OPTIONS</h2>
         <div class="image-divider">
@@ -295,7 +314,7 @@
         </div>
       </div>
     </section>
-    <section class="seventhSec" id="reviews">
+    <section class="reviews" id="reviews">
       <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
       <div class="image-divider">
           <img src="app/images/divider_blue.svg" alt="divider-blue">
@@ -369,7 +388,7 @@
           <div class="swiper-pagination"></div>  
         </div>
     </section>
-    <section class="eighthSec" id="contact">
+    <section class="contact" id="contact">
         <div class="eighth-1">
           <h2>CONTACT US</h2>
           <div class="image-divider">
@@ -393,15 +412,27 @@
         </div>
     </section>
     <footer>
-      <div class="footer-1">
-        <img class="svg-1" src="app/images/facebook-logo.svg" alt="facebook-logo">
-        <img class="svg-2" src="app/images/instagram-logo.svg" alt="instagram-logo">
-        <img class="svg-3" src="app/images/twitter.svg" alt="twitter">
-        <img class="svg-4" src="app/images/pinterest.svg" alt="pinterest">
-        <img class="svg-5" src="app/images/rss-solid.svg" alt="rss">
-      </div>
-      <div class="footer-2">
-        <p>© 2019 Cheshire County</p>
+      <div class="contentSize">
+        <div class="footer-1">
+          <button onclick="location.href='https://www.facebook.com/'" type="button">
+            <img class="svg-1" src="app/images/facebook-logo.svg" alt="facebook-logo">
+          </button >
+          <button onclick="location.href='https://www.instagram.com/'" type="button">
+            <img class="svg-2" src="app/images/instagram-logo.svg" alt="instagram-logo">
+          </button>
+          <button onclick="location.href='https://twitter.com/'" type="button">
+            <img class="svg-3" src="app/images/twitter.svg" alt="twitter">
+          </button>
+          <button onclick="location.href='https://www.pinterest.com/'" type="button">
+            <img class="svg-4" src="app/images/pinterest.svg" alt="pinterest">
+          </button>
+          <button onclick="location.href='https://rss.com/'" type="button">
+            <img class="svg-5" src="app/images/rss-solid.svg" alt="rss">
+          </button>  
+        </div>
+        <div class="footer-2">
+          <p>© 2019 Cheshire County</p>
+        </div>
       </div>
     </footer>
   </main>

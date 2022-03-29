@@ -1,5 +1,5 @@
 
-.firstSec{
+.start{
     background:  $background-cover-1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,15 +10,22 @@
 
     .cover{
     display: flex;
-    justify-content: space-between;
-    align-items: center;  
+    justify-content: center;
     width: 100%;
     height: 639px;
     background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
     background-size: cover;
-      
-
+    
+    
+    
+    .contentSize{
+        width: 100%;
+        max-width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
         .firstSec-1{
+            margin-top: 65px;
                 margin-left: 150.04px;
                 width: 651px;
                 height: 435px;
@@ -71,6 +78,7 @@
 
 
             .firstSec-2{
+                margin-top: 75px;
                 margin-right: 148px;
                 width: 360px;
                 height: 425px;
@@ -182,27 +190,31 @@
                 }
             }
 
+        }
     }
 
 }
 
 @media (max-width:1330px){
-    .firstSec{
+    .start{
         background-position: center;
-        height: 900px;
+        height: 920px;
         .cover{
-            flex-direction: column;
-            height: 900px;
-            .firstSec-1{
-                align-items: center;
-                margin: 0 auto;
-                margin-top: 20px;
+            .contentSize{
+                flex-direction: column;
+                height: 920px;
+                .firstSec-1{
+                    align-items: center;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                }
+                .firstSec-2{
+                    margin: 0 auto;
+                    margin-top: 25px;
+                    margin-bottom: 40px;
+                }
             }
-            .firstSec-2{
-                margin: 0 auto;
-                margin-top: 25px;
-                margin-bottom: 20px;
-            }
+
         }
     }
 }

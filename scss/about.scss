@@ -1,11 +1,18 @@
-.fourthSec{
+.about{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 596px;
     background: $background-1;
-    color: $color-1;  
+    color: $color-1;
+    
+    .contentSize{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1400px;
 
 
     .fourth-1{
@@ -93,11 +100,12 @@
             }
         }
         }
+}
 
 
 
 @media (max-width:1280px){
-    .fourthSec{
+    .about{
         height: 750px;
         flex-direction: column;
         align-items: center;

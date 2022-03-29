@@ -1,4 +1,4 @@
-.thirdSec{
+.features{
     width: 100%;
     height: 595px;
     background:  $background-cover-2;
@@ -200,7 +200,7 @@
 }
 
 @media (max-width:1330px){
-    .thirdSec{
+    .features{
         height: 600px;
         background-position: center;
         .cover{
@@ -227,7 +227,7 @@
     }
 }
 @media (max-width:1035px) {
-    .thirdSec{
+    .features{
         height: 1000px;
         .cover{
             .swiper{
@@ -245,7 +245,7 @@
     }
 }
 @media(min-width:1300px){
-    .thirdSec{
+    .features{
         .cover{
             justify-content: center;
             .tabs{
